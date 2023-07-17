@@ -26,5 +26,13 @@ namespace Bakery.Tests
           int result = newBread.BreadPrice();
           Assert.AreEqual(25, result);
         }
+        [TestMethod]
+        public void BreadCoupon_AddCouponToBread_Int()
+        {
+          Bread newBread = new Bread(5);
+          int breadPrice = newBread.BreadPrice();
+          int breadCoupon = newBread.BreadCoupon(breadPrice);
+          Assert.AreEqual(20, breadCoupon);
+        }
     }
 }
