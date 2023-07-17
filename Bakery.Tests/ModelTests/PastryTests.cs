@@ -26,5 +26,14 @@ namespace Bakery.Tests
       int result = newPastry.PastryPrice();
       Assert.AreEqual(10, result);
     }
+
+    [TestMethod]
+    public void PastryCoupon_AddCouponToPastry_Int()
+    {
+      Pastry newPastry = new Pastry(5);
+      int pastryPrice = newPastry.PastryPrice();
+      int couponAmount = newPastry.PastryCoupon(pastryPrice);
+      Assert.AreEqual(8, couponAmount);
+    }
   }
 }
