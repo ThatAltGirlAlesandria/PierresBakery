@@ -16,9 +16,16 @@ namespace Bakery.Tests
         public void GetHowManyBreads_ReturnsHowManyBreads_Int()
         {
           int count = 1;
-          Bread newBread = new Bread(count);
+          Bread newBread = new Bread(1);
           int result = newBread.HowManyBreads;
-          Assert.AreEqual(count, result);
+          Assert.AreEqual(1, result);
+        }
+        [TestMethod]
+        public void BreadPrice_ReturnsBreadPrice_Int()
+        {
+          Bread newBread = new Bread(1);
+          int result = newBread.BreadPrice();
+          Assert.AreEqual(5, result);
         }
     }
 }
