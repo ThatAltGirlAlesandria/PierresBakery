@@ -1,7 +1,11 @@
-class Program
+namespace Bakery
 {
-  static void Main()
+
+  class Program
   {
-    // C# Program code goes here.
+    static void Main()
+    {
+    
+    }
   }
 }
