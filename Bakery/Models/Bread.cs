@@ -20,7 +20,6 @@ namespace Bakery.Models
             int threeForTwoCoupon = getThreeForTwo * 5;
             int couponAmount = breadPrice - threeForTwoCoupon;
             return couponAmount;
-
         }
     }
 }
