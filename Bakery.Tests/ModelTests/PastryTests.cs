@@ -9,8 +9,15 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryConstructor_CreatesInstanceOfPastryClass_Pastry()
     {
-      Pastry newPastry = new Pastry();
+      Pastry newPastry = new Pastry(1);
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+    }
+    [TestMethod]
+    public void GetHowManyPastrys_ReturnHowManyPastrys_Int()
+    {
+      Pastry newPastry = new Pastry(1);
+      int result = newPastry.HowManyPastrys;
+      Assert.AreEqual(1, result);
     }
   }
 }
