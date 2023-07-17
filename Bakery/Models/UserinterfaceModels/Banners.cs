@@ -1,4 +1,0 @@
-namespace Bakery.UserinterfaceModels.cs
-{
-  
-}
