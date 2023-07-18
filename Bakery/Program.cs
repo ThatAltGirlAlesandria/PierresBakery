@@ -30,7 +30,9 @@ namespace Bakery
 
         int breadPrice = newBread.BreadPrice();
         int pastryPrice = newPastry.PastryPrice();
-        int total = breadPrice + pastryPrice;
+        int couponAmount = newBread.BreadCoupon(breadPrice);
+        int couponAmountTwo = newPastry.PastryCoupon(pastryPrice);
+        int total = couponAmount + couponAmountTwo;
 
         Console.WriteLine("-----------------------------------------------------------------");
         Console.WriteLine($"Loafs of bread ordered: {howManyLoafs}");
