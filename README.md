@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # PierresBakery
+=======
+# PierreBakery
+>>>>>>> 20b3a6f9348c9533ce6ed5d45b6bfbf13a4f0e2e
 ### By _Alesandria Wild_
 ##### | Alesandria Wild               | [Github](https://github.com/ThatAltGirlAlesandria)| [LinkedIn](https://www.linkedin.com/in/alesandria-wild/)      |
 
@@ -34,4 +38,8 @@ This is a  console application that allows the user to select how many loafs of 
 
 ## License
 
+<<<<<<< HEAD
 MIT Copyright 2023 Alesandria Wild
+=======
+MIT Copyright 2023 Alesandria Wild
+>>>>>>> 20b3a6f9348c9533ce6ed5d45b6bfbf13a4f0e2e
